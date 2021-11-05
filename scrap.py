@@ -1,3 +1,4 @@
+#working file
 import json
 import random
 import re
@@ -20,6 +21,7 @@ def category():
         cat_list.append(name.text.strip())
 
     return cat_list
+
 
 def quotes(category, numberOfQuotes):
     quotes_list = []
@@ -59,9 +61,9 @@ def quotes(category, numberOfQuotes):
 
 if __name__ == "__main__":
     # Demo: Get 40 quotes of the category 'Amazing'
-    print("Category '%s'" % category()[2])
-    demoResult = quotes(category()[2], 40)
+    print("Category '%s'" % category()[4])
+    demoResult = quotes(category()[4], 40)
     print("Got %d quotes" % len(demoResult))
-    print("Example: %s" % demoResult[0])
+    print("Example: %s" % demoResult[1])
 
 
