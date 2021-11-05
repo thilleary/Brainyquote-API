@@ -1,6 +1,7 @@
 #th working files! 
+
 #REPO forked on 11/1
-# brainyquote-API
+# name change to bq-api
 Unofficial API of brainyquote.com for random quotes.
 
 ## Requirements
