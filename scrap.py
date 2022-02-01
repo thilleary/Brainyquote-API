@@ -61,7 +61,8 @@ def quotes(category, numberOfQuotes):
 
 if __name__ == "__main__":
     # Demo: Get 40 quotes of the category 'Amazing'
-    print("Category '%s'" % category()[4])
+    print("point 1")
+    print("Category '%s'" % category()[34])
     demoResult = quotes(category()[4], 40)
     print("Got %d quotes" % len(demoResult))
     print("Example: %s" % demoResult[1])
